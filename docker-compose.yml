@@ -1,0 +1,11 @@
+# This idea is taken from:
+# https://www.rizzonicola.com/sphinx-docker/
+version: "3"
+services:
+  service_doc:
+    container_name: Learning-Compendium
+    build: docker/docs
+    volumes:
+      - ./docs:/etc/Sphinx/source
+    ports:
+      - 8100:80
