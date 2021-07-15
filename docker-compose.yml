@@ -7,5 +7,6 @@ services:
     build: docker/docs
     volumes:
       - ./docs:/etc/Sphinx/source
+      - ./docs/build:/etc/Sphinx/build
     ports:
       - 8100:80
