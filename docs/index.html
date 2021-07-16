@@ -1,113 +1,175 @@
-
 <!DOCTYPE html>
-
-<html>
+<html >
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome to FS Coding Initiative’s documentation! &#8212; FS Coding Initiative 0.0.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-   
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+      <title>Welcome to the FS Coding Initiative!</title>
+    
+          <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="_static/theme.css " type="text/css" />
+          <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
 
-  </head><body>
-  
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="_static/theme-vendors.js"></script> -->
+      <script src="_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="genindex.html" />
+  <link rel="search" title="Search" href="search.html" />
+  <link rel="next" title="Set-up" href="set-up.html" /> 
+  </head>
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="#" class="home-link">
+    
+      <span class="site-name">FS Coding Initiative</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
           
-
-          <div class="body" role="main">
+          <navlinks>
             
-  <section id="welcome-to-fs-coding-initiative-s-documentation">
-<h1>Welcome to FS Coding Initiative’s documentation!<a class="headerlink" href="#welcome-to-fs-coding-initiative-s-documentation" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#welcome-to-the-fs-coding-initiative">Contents:</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 "><a href="set-up.html" class="reference internal ">Set-up</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="beginners.html" class="reference internal ">Beginners</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="medium.html" class="reference internal ">Medium</a>
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 "><a href="advanced.html" class="reference internal ">Advanced</a>
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
 </div>
-</section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+    
+    <li>Welcome to the FS Coding Initiative!</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="next">
+    <a href="set-up.html"
+       title="next chapter">Set-up →</a>
+  </li>
 </ul>
-<p>This is a test</p>
-<p>Yet another test</p>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="welcome-to-the-fs-coding-initiative">
+<h1>Welcome to the FS Coding Initiative!<a class="headerlink" href="#welcome-to-the-fs-coding-initiative" title="Permalink to this headline">¶</a></h1>
+<p>This repository belongs to the Coding Initiatve of the
+<a class="reference external" href="https://www.frankfurt-school.de/home">Frankfurt School of Finance and Management</a>.
+This repository will grow over time, so make sure to check in on it every once
+in a while.</p>
+<p>However, the main idea of this repository is to create content for different
+level of coding. It contains a section for <a class="reference internal" href="beginners.html#beginners"><span class="std std-ref">Beginners</span></a>, where the basics of
+Python will be explained. Second a <a class="reference internal" href="medium.html#medium"><span class="std std-ref">Medium</span></a> section, where a bit more deeper
+ideas about programming in general an Python as explained. The last part will be
+the <a class="reference internal" href="advanced.html#advanced"><span class="std std-ref">Advanced</span></a> section. Within this section some programs might be explained,
+but mostly it contains challenges which you have to fulfill in a team or by your
+own.</p>
+<p><strong>Before you start digging in</strong>, please shortly read the <a class="reference internal" href="set-up.html#set-up"><span class="std std-ref">Set-up</span></a> section.
+It will go briefly over the things you should know, when you are enrolled in
+a master programm at Frankfurt School or alternatives if you are not.</p>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="set-up.html">Set-up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="beginners.html">Beginners</a></li>
+<li class="toctree-l1"><a class="reference internal" href="medium.html">Medium</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced</a></li>
+</ul>
+</div>
 </section>
 
 
           </div>
-          
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="#">FS Coding Initiative</a></h1>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="#">Documentation overview</a><ul>
-  </ul></li>
-</ul>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="next">
+    <a href="set-up.html"
+       title="next chapter">Set-up →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2021, Yannik Suhre.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.2.0+ with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.7.3.
 </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</div>
-<script>$('#searchbox').show(0);</script>
-
-
-
-
-
-
-
-
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="footer">
-      &copy;2021, Yannik Suhre.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0+</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
-      
-      |
-      <a href="_sources/index.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
-
+            </div>
+          </div>
+      </page>
+    </div></div>
     
-
     
   </body>
 </html>

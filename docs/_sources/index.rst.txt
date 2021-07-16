@@ -3,22 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to FS Coding Initiative's documentation!
+Welcome to the FS Coding Initiative!
 ================================================
+
+This repository belongs to the Coding Initiatve of the
+`Frankfurt School of Finance and Management <https://www.frankfurt-school.de/home>`_.
+This repository will grow over time, so make sure to check in on it every once
+in a while.
+
+However, the main idea of this repository is to create content for different
+level of coding. It contains a section for :ref:`Beginners`, where the basics of
+Python will be explained. Second a :ref:`Medium` section, where a bit more deeper
+ideas about programming in general an Python as explained. The last part will be
+the :ref:`Advanced` section. Within this section some programs might be explained,
+but mostly it contains challenges which you have to fulfill in a team or by your
+own.
+
+**Before you start digging in**, please shortly read the :ref:`Set-up` section. 
+It will go briefly over the things you should know, when you are enrolled in
+a master programm at Frankfurt School or alternatives if you are not.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   set-up
+   beginners
+   medium
+   advanced
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-This is a test
-
-Yet another test
