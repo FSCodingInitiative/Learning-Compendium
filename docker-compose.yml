@@ -6,7 +6,7 @@ services:
     container_name: Learning-Compendium
     build: docker/docs
     volumes:
-      - ./docs:/etc/Sphinx/source
-      - ./docs/build:/etc/Sphinx/build
+      - ./docs/source:/etc/Sphinx/source
+      - ./docs:/etc/Sphinx/build
     ports:
       - 8100:80

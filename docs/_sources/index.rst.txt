@@ -19,4 +19,6 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-This is a fest
+This is a test
+
+Yet another test
