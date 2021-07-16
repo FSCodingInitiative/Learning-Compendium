@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+================================================
 Welcome to the FS Coding Initiative!
 ================================================
 
@@ -22,6 +23,19 @@ own.
 **Before you start digging in**, please shortly read the :ref:`Set-up` section. 
 It will go briefly over the things you should know, when you are enrolled in
 a master programm at Frankfurt School or alternatives if you are not.
+
+Important dates
+===============
+
+.. csv-table::
+   :file: Important_dates.csv
+   :header-rows: 1
+
+To-Do's
+=============
+
+#. [ ] - Schedule
+#. [ ] - How do we boggie?
 
 .. toctree::
    :maxdepth: 2
