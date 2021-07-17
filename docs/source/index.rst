@@ -36,6 +36,7 @@ To-Do's
 
 #. [ ] - Schedule
 #. [ ] - How do we boggie?
+#. [ ] - Who else might be interested in leading this with us?
 
 .. toctree::
    :maxdepth: 2
@@ -46,3 +47,9 @@ To-Do's
    medium
    advanced
 
+Jans Ideen
+==========
+
+#. Ask Skyler for help if he can rereads several parts
+#. Add a discord server
+#. Weekly presentation of the 

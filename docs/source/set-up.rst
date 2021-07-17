@@ -12,3 +12,5 @@ To-Do's
 #. [ ] - Wharton
 #. [ ] - Git & GitHub
 #. [ ] - Draw.io
+#. [ ] - How to set-up Python
+#. [ ] - What else on programming languages is out there? (R, Java, ...)
