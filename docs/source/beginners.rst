@@ -7,8 +7,13 @@ be introduced here (e.g. :ref:`Python`, :ref:`R`, :ref:`JavaScript`). All of tho
 little sections will give you a little introduction into those tools, as well
 as some hints about the usage of the software. 
 
-Python
-######
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Python:
+
+    datatypes
+ 
 
 R
 ###
