@@ -30,8 +30,14 @@ release = '0.0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["sphinx.ext.autosectionlabel"
+extensions = ["sphinx.ext.autosectionlabel",
+              "sphinxcontrib.bibtex"
 ]
+
+# Here are the different citations names
+bibtex_bibfiles = ['_static/tech_stack.bib']
+
+bibtex_bibliography_header = ".. rubric:: References"
 
 # How should code be displayed
 pygments_style = "monokai"

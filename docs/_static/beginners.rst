@@ -4,8 +4,6 @@ Beginners
 
 
 
-.. include:: definitions.rst
-
 To-Do's
 =============
 
@@ -13,4 +11,3 @@ To-Do's
 #. [ ] - Introduction to Python
 #. [ ] - What is a function?
 #. [ ] - How to write a docstring?
-s

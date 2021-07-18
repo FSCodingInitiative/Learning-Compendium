@@ -7,7 +7,7 @@
 Welcome to the FS Coding Initiative!
 ================================================
 
-This repository belongs to the Coding Initiatve of the
+This repository belongs to the Coding Initiative of the
 `Frankfurt School of Finance and Management <https://www.frankfurt-school.de/home>`_.
 This repository will grow over time, so make sure to check in on it every once
 in a while.
@@ -20,9 +20,9 @@ the :ref:`Advanced` section. Within this section some programs might be explaine
 but mostly it contains challenges which you have to fulfill in a team or by your
 own.
 
-**Before you start digging in**, please shortly read the :ref:`Set-up` section. 
+**Before you start digging in**, please shortly read the :ref:`Tech-Stack` section. 
 It will go briefly over the things you should know, when you are enrolled in
-a master programm at Frankfurt School or alternatives if you are not.
+a master program at Frankfurt School or alternatives if you are not.
 
 Important dates
 ===============
