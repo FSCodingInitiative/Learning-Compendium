@@ -1,7 +1,0 @@
-/* How to add a custom css: https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html */
-@import 'sphinx_press_theme.css'; 
-
-.viewcode-link {
-    margin-left: 1em;
-    color: #9ab3d8;
-}

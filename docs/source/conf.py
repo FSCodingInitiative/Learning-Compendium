@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'FS Coding Initiative'
-copyright = '2021, Yannik Suhre'
-author = 'Yannik Suhre'
+copyright = '2021, Yannik Suhre & Jan Faulstich'
+author = 'Yannik Suhre, Jan Faulstich'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -55,14 +55,19 @@ html_theme = 'press'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['.']
+html_static_path = ['./_static']
+
+# Add a favicon, this is the icon you see in the tab
 html_favicon = 'logo.png'
+
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 html_logo = "logo.png"
+
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%b %d, %Y'
+
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 html_show_sphinx = False
 
@@ -76,7 +81,6 @@ html_css_files = [
 # defined by theme itself.  Builtin themes are using these templates by
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
-#
 html_sidebars = {'**': ['util/sidetoc.html']}
 
 html_theme_options = {
@@ -87,3 +91,7 @@ html_theme_options = {
         )
     ]
 }
+
+# If true, sectionauthor and moduleauthor directives will be shown in the
+# output. They are ignored by default.
+# show_authors = False
