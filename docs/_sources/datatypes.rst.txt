@@ -24,9 +24,21 @@ Saying so, here are some examples for integer calculations:
 
 Float
 --------
+The float type in Python represents the floating point number. Float is used to represent real numbers and is written with a decimal point dividing the integer and fractional parts.
+For example are numbers like 10.4, 3492.892123 or 3.1415 floating numbers and you are able to the same maths as with integers.
 
 String 
 --------
 
+
 Boolean 
+--------
+
+List
+--------
+
+Dictionary
+----------
+
+Tuple
 --------
